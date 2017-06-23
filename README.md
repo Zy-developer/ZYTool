@@ -7,34 +7,54 @@
 [![Languages](https://img.shields.io/badge/language-ObjectiveC-FF69B4.svg?style=plastic)](#)
 
 # Table of contents
-* [Installation](#installation)
+* [Installation](#Installation with CocoaPods)
 * [Requirements](#Requirements)
 * [Author](#Author)
 * [License](#License)
 
-## Installation
+## ✨ Installation with CocoaPods
 
-ZYTool is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+[CocoaPods](http://cocoapods.org) is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries like `ZYTool` in your projects. You can install it with the following command:
 
-```ruby
-pod "ZYTool"
+```bash
+$ sudo gem install cocoapods
 ```
 
-Then, open the terminal to run `pod install`.
+> `CocoaPods 1.1.1+` is required to build `ZYTool 0.1.2`.
+
+#### 📃 Podfile
+
+To integrate `ZYTool` into your `Xcode` project using `CocoaPods`, specify it in your `Podfile`:
 
 ```ruby
-#import <ZYTool.h>
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+
+target 'TargetName' do
+pod 'ZYTool', '~> 0.1.2'
+end
 ```
 
-## Requirements
+Then, run the following command:
 
-Use more than `Xcode8.0`, `iOS` version `8.0` or more, language: `Objective-C`.
+```bash
+$ pod install
+```
 
-## Author
+```
 
-Zy, Blogs: [.故事](http://www.cnblogs.com/Zy-iOS-GS/).
+## ⚠️ Requirements
 
-## License
+* Xcode: `Version 8.0+`.
+* Language: `Objective-C`.
+* Requires a minimum of iOS 8.0.
+
+## ✋ Use
+
+## 👑 Author
+
+👱 Zy, Blogs: [.故事](http://www.cnblogs.com/Zy-iOS-GS/).
+
+## 🔑  License
 
 `ZYTool` is available under the `MIT` license. See the LICENSE file for more info.
