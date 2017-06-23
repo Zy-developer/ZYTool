@@ -8,9 +8,10 @@
 
 # 💖 Table of contents
 * [Installation](#-installation-with-cocoapods)
-* [Requirements](#Requirements)
-* [Author](#Author)
-* [License](#License)
+* [Requirements](#️-requirements)
+* [Use](#-use)
+* [Author](#-author)
+* [License](#--license)
 
 ## ✨ Installation with CocoaPods
 
