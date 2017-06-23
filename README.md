@@ -7,7 +7,7 @@
 [![Languages](https://img.shields.io/badge/language-ObjectiveC-FF69B4.svg?style=plastic)](#)
 
 # 💖 Table of contents
-* [Installation](##-installation-with-cocoapods)
+* [Installation](#-installation-with-cocoapods)
 * [Requirements](#Requirements)
 * [Author](#Author)
 * [License](#License)
