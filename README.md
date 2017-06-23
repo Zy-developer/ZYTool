@@ -6,8 +6,8 @@
 [![Platform](https://img.shields.io/badge/platform-iOS%208%2B-blue.svg?style=flat)](http://cocoapods.org/pods/ZYTool)
 [![Languages](https://img.shields.io/badge/language-ObjectiveC-FF69B4.svg?style=plastic)](#)
 
-# Table of contents
-* [Installation](#Installation with CocoaPods)
+# 💖 Table of contents
+* [Installation](##-installation-with-cocoapods)
 * [Requirements](#Requirements)
 * [Author](#Author)
 * [License](#License)
