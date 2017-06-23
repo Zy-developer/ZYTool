@@ -5,41 +5,73 @@
 //  Copyright © 2016年 ZY. All rights reserved.
 //
 
+/**
+ * 
+ *                    .::::.
+ *                  .::::::::.
+ *                 :::::::::::
+ *             ..:::::::::::'
+ *           '::::::::::::'
+ *             .::::::::::
+ *        '::::::::::::::..
+ *             ..::::::::::::.
+ *           ``::::::::::::::::
+ *            ::::``:::::::::'        .:::.
+ *           ::::'   ':::::'       .::::::::.
+ *         .::::'      ::::     .:::::::'::::.
+ *        .:::'       :::::  .:::::::::' ':::::.
+ *       .::'        :::::.:::::::::'      ':::::.
+ *      .::'         ::::::::::::::'         ``::::.
+ *  ...:::           ::::::::::::'              ``::.
+ * ```` ':.          ':::::::::'                  ::::..
+ *                    '.:::::'                    ':'````..
+ *
+ ***********************************************************
+ *
+ 
+ * ZYTool Framework.
+ *  Official releases.
+ *  Version: 0.1.2
+ *  Published Date: 2017.06.23
+ *  Update Content:
+ *   Major updates.
+ 
+ *
+ ***********************************************************/
+
 
 /**
- * ZYTool
- *  Version: 0.1.1
- *  Date: 2017.05.25
- *  Content:
- *   1. Create.
- */
-
-
-/**
- * Toast
+ * Toast.
  *  提示信息，定时自动消失.
  */
 #import "ZYToast.h"
 
 /**
- * UserDefaults
+ * UserDefaults.
  *  对UserDefaults进行的一些简单API封装.
  */
 #import "UserDefaultsTool.h"
 
 /**
- * Device
+ * UUIDManager.
+ *  设备的唯一标识(UUID/GUID).
  */
-#import "ZYDeviceTool.h"
+#import "ZYUUIDManager.h"
 
 /**
- * FileManager
+ * DeviceIPAdresses.
+ *  IP地址.
+ */
+#import "ZYDeviceIPAdresses.h"
+
+/**
+ * FileManager.
  *  管理沙盒文件，封装了一些简单的API.
  */
 #import "ZYFileManager.h"
 
 /**
- * SpeechSynthesizer
+ * SpeechSynthesizer.
  *  文字合成语音播报.
  */
 #import "SpeechSynthesizer.h"

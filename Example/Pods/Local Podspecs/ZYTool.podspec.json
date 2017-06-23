@@ -3,7 +3,7 @@
   "version": "0.1.2",
   "summary": "ZYTool Framework Language: Objective-C.",
   "description": "ZYTool Encapsulates some of the commonly used methods of development, easy to develop and use.",
-  "homepage": "https://github.com/zengyuios/ZYTool",
+  "homepage": "https://github.com/zengyuios/ZYTool#zytool-framework",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -18,5 +18,5 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ZYTool/Classes/**"
+  "source_files": "ZYTool/Classes/**/*"
 }
