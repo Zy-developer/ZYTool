@@ -41,8 +41,6 @@ Then, run the following command:
 $ pod install
 ```
 
-```
-
 ## ⚠️ Requirements
 
 * Xcode: `Version 8.0+`.
