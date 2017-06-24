@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ZYTool'
   s.version          = '0.1.2'
-  s.summary          = 'ZYTool Framework Language: Objective-C.'
+  s.summary          = 'ZYTool Language: Objective-C. Encapsulates some of the commonly used methods of development, easy to develop and use.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'ZYTool Encapsulates some of the commonly used methods of development, easy to develop and use.'
+  s.description      = 'ZYTool Development Framework.'
 
   s.homepage         = 'https://github.com/zengyuios/ZYTool#zytool-framework'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
