@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZYTool'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'ZYTool Language: Objective-C. Encapsulates some of the commonly used methods of development, easy to develop and use.'
 
 # This description is used to generate tags and improve search results.
