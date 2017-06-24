@@ -31,8 +31,8 @@
  
  * ZYTool Framework.
  *  Official releases.
- *  Version: 0.1.2
- *  Published Date: 2017.06.23
+ *  Version: 0.1.3
+ *  Published Date: 2017.06.24
  *  Update Content:
  *   Major updates.
  
