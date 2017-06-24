@@ -1,7 +1,7 @@
 # ZYTool Framework.
 
 [![CI Status](http://img.shields.io/travis/zengyuios/ZYTool.svg?style=flat)](https://travis-ci.org/zengyuios/ZYTool)
-[![Version](https://img.shields.io/cocoapods/v/ZYTool.svg?style=flat)](http://cocoapods.org/pods/ZYTool)
+[![Pod Version](http://img.shields.io/cocoapods/v/ZYTool.svg?style=flat)](http://cocoapods.org/pods/ZYTool)
 [![License](https://img.shields.io/cocoapods/l/ZYTool.svg?style=flat)](http://cocoapods.org/pods/ZYTool)
 [![Platform](https://img.shields.io/badge/platform-iOS%208%2B-blue.svg?style=flat)](http://cocoapods.org/pods/ZYTool)
 [![Languages](https://img.shields.io/badge/language-ObjectiveC-FF69B4.svg?style=plastic)](#)
