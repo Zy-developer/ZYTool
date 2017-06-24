@@ -21,7 +21,7 @@
 $ sudo gem install cocoapods
 ```
 
-> `CocoaPods 1.1.1+` is required to build `ZYTool 0.1.2`.
+> `CocoaPods 1.1.1+` is required to build `ZYTool 0.1.2+`.
 
 #### 📃 Podfile
 
@@ -46,7 +46,7 @@ $ pod install
 
 * Xcode: `Version 8.0+`.
 * Language: `Objective-C`.
-* Requires a minimum of iOS 8.0.
+* Requires a minimum of iOS 8.0+.
 
 ## ✋ Use
 

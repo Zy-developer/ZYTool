@@ -28,13 +28,13 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ZYTool/Classes/**/*'
+  s.source_files = 'ZYTool/Classes/ZYTool.h'
   
   # s.resource_bundles = {
   #   'ZYTool' => ['ZYTool/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'ZYTool/Classes/ZYTool.h'
   # s.frameworks = 'UIKit', 'QuartzCore', 'CoreGraphics'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
