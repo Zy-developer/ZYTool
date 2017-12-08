@@ -4,10 +4,8 @@ target 'ZYTool_Example' do
     pod 'ZYTool', :path => '../'
 #    pod 'ZYTool', :git => 'https://github.com/zengyuios/ZYTool.git'
 
-
   target 'ZYTool_Tests' do
     inherit! :search_paths
-
     
   end
 end
