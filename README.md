@@ -20,7 +20,7 @@
 $ sudo gem install cocoapods
 ```
 
-> `CocoaPods 1.1.1+` is required to build `ZYTool 0.1.2+`.
+> `CocoaPods 1.1.1+` is required to build `ZYTool 0.1.4+`.
 
 #### 📃 Podfile
 
@@ -31,7 +31,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 
 target 'TargetName' do
-pod 'ZYTool', '~> 0.1.3'
+pod 'ZYTool', '~> 0.1.4'
 end
 ```
 

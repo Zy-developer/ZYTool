@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZYTool'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'ZYTool Development Framework Language: Objective-C.'
 
 # This description is used to generate tags and improve search results.
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = 'ZYTool Encapsulates some of the commonly used methods of development, easy to develop and use.'
 
-  s.homepage         = 'https://github.com/zengyuios/ZYTool#zytool-framework'
+  s.homepage         = 'https://github.com/zengyuios/ZYTool'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zengyuios' => '958255130@qq.com' }
