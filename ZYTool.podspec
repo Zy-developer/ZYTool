@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZYTool'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'ZYTool Development Framework Language: Objective-C.'
 
 # This description is used to generate tags and improve search results.
@@ -28,13 +28,14 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ZYTool/Classes/**/*'
+# s.source_files = 'ZYTool/Classes/*'
+  s.vendored_frameworks = 'ZYTool.framework'
   
   # s.resource_bundles = {
   #   'ZYTool' => ['ZYTool/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'QuartzCore', 'CoreGraphics'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.frameworks = 'UIKit', 'Foundation'
+  # s.dependency 'AFNetworking', '~> 3.1'
 end
