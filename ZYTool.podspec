@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
 # s.source_files = 'ZYTool/Classes/*'
-  s.vendored_frameworks = 'ZYTool.framework'
+  s.vendored_frameworks = 'ZYTool/ZYTool.framework'
   
   # s.resource_bundles = {
   #   'ZYTool' => ['ZYTool/Assets/*.png']
