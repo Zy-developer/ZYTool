@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A93F3931FEA3479007AA27A /* ZYTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A93F3921FEA3479007AA27A /* ZYTool.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
@@ -20,8 +21,6 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		752D0B541EFCA25F00F2FFBB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752D0B531EFCA25F00F2FFBB /* QuartzCore.framework */; };
-		752D0B551EFCA2AA00F2FFBB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		B2A6B3AEF0167634AF73E1DF /* Pods_ZYTool_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E761C6C2B73C320B913AD59D /* Pods_ZYTool_Example.framework */; };
 		DA427505218EB31E379B3496 /* Pods_ZYTool_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C47920CFCDFDED5001D666E /* Pods_ZYTool_Tests.framework */; };
@@ -39,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0C47920CFCDFDED5001D666E /* Pods_ZYTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A93F3921FEA3479007AA27A /* ZYTool.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZYTool.framework; sourceTree = "<group>"; };
 		1AAD4F691FDE243800403AE5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		1AAD4F6A1FDE243800403AE5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		1AAD4F6B1FDE243800403AE5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
@@ -79,8 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				752D0B551EFCA2AA00F2FFBB /* CoreGraphics.framework in Frameworks */,
-				752D0B541EFCA25F00F2FFBB /* QuartzCore.framework in Frameworks */,
+				1A93F3931FEA3479007AA27A /* ZYTool.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 				B2A6B3AEF0167634AF73E1DF /* Pods_ZYTool_Example.framework in Frameworks */,
@@ -125,6 +124,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1A93F3921FEA3479007AA27A /* ZYTool.framework */,
 				752D0B531EFCA25F00F2FFBB /* QuartzCore.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
@@ -559,6 +559,10 @@
 			baseConfigurationReference = 6524F7A20457D6C8B628032D /* Pods-ZYTool_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZYTool/ZYTool-Prefix.pch";
 				INFOPLIST_FILE = "ZYTool/ZYTool-Info.plist";
@@ -574,6 +578,10 @@
 			baseConfigurationReference = 1C665608D2775B3C75F605F9 /* Pods-ZYTool_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZYTool/ZYTool-Prefix.pch";
 				INFOPLIST_FILE = "ZYTool/ZYTool-Info.plist";
@@ -593,6 +601,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
@@ -617,6 +626,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";

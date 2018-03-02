@@ -21,6 +21,9 @@
 
 #import "ZYViewController.h"
 
+/** 导入组件 */
+#import <ZYTool/ZYTool.h>
+
 @interface ZYViewController ()
 
 @end
@@ -35,6 +38,46 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+
+#pragma mark - Toast
+- (void)testToast {
+    [ZYToast showWithText:@"--- Toast ---"];
+    [ZYToast showBottomText:@"--- showBottomText ---"];
+    [ZYToast showWithText:@"--- showTop ---" topOffset:50.0f duration:2.0f];
+    [ZYToast showOperationSuccess];
+    [ZYToast showOperationFail];
+}
+
+#pragma mark - UserDefaults
+- (void)testUserDefaultsTool {
+    [UserDefaultsTool setBool:YES forKey:@"boolean"];
+    [UserDefaultsTool boolForKey:@"boolean"];
+}
+
+#pragma mark - Device
+- (void)testDeviceTool {
+    NSString *IPAddresses = [ZYDeviceIPAdresses getIpAddresses];
+    NSLog(@"IPAddresses: %@", IPAddresses);
+    
+    [ZYUUIDManager saveUUID:@"170525testUUID"];
+    NSString *uuid = [ZYUUIDManager getUUID];
+    NSLog(@"UUID: %@", uuid);
+}
+
+#pragma mark - FileManager
+- (void)testFileManager {
+    NSString *documentPath = [ZYFileManager getDocumentDirectory];
+    NSString *cachesPath = [ZYFileManager getCachesDirectory];
+    NSString *tmpPath = [ZYFileManager getTmpDirectory];
+    NSLog(@"documentPath: %@, cachesPath: %@, tmpPath: %@", documentPath, cachesPath, tmpPath);
+}
+
+#pragma mark - SpeechSynthesizer
+- (void)testSpeechSynthesizer {
+    [[SpeechSynthesizer sharedInstance] speakString:@"Hello word."];
 }
 
 @end
