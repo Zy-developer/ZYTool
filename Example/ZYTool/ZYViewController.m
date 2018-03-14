@@ -54,7 +54,11 @@
 #pragma mark - UserDefaults
 - (void)testUserDefaultsTool {
     [UserDefaultsTool setBool:YES forKey:@"boolean"];
-    [UserDefaultsTool boolForKey:@"boolean"];
+    if ([UserDefaultsTool boolForKey:@"boolean"]) {
+        NSLog(@"boolean - YES");
+    } else {
+        NSLog(@"boolean - NO");
+    }
 }
 
 #pragma mark - Device
@@ -77,7 +81,7 @@
 
 #pragma mark - SpeechSynthesizer
 - (void)testSpeechSynthesizer {
-    [[SpeechSynthesizer sharedInstance] speakString:@"Hello word."];
+    [[SpeechSynthesizer sharedInstance] speakString:@"Hello ZYTool."];
 }
 
 @end

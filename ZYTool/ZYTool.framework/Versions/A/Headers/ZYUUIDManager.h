@@ -8,9 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-/**
- * 设备的唯一标识(UUID/GUID).
- */
+/** 设备的唯一标识(UUID/GUID). */
 @interface ZYUUIDManager : NSObject
 
 /**

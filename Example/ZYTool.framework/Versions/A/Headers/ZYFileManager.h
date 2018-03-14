@@ -8,9 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-/**
- * 文件管理.
- */
+/** 文件管理. */
 @interface ZYFileManager : NSObject
 
 /**

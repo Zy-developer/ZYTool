@@ -8,9 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-/**
- * IP地址.
- */
+/** IP地址. */
 @interface ZYDeviceIPAdresses : NSObject
 
 /**

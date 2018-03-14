@@ -1,7 +1,7 @@
 //
 //  ZYTool.h
 //
-//  Created by ZY on 16/7/16.
+//  Created by ZY.
 //  Copyright © 2016年 ZY. All rights reserved.
 //
 
@@ -11,8 +11,8 @@
  
  * ZYTool Framework.
  *  Releases.
- *  Version: 0.1.6
- *  Published Date: 2017.12.11
+ *  Version: 0.1.8
+ *  Published Date: 2018.03.14
  
  *
  ***********************************************************
@@ -54,3 +54,5 @@
  *  文字合成语音播报.
  */
 #import "SpeechSynthesizer.h"
+
+

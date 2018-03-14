@@ -8,9 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-/**
- * Toast 提示信息.
- */
+/** Toast 提示信息. */
 @interface ZYToast : NSObject
 
 
