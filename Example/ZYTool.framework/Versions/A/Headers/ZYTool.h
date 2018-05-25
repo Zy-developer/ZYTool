@@ -11,8 +11,9 @@
  
  * ZYTool Framework.
  *  Releases.
- *  Version: 0.1.8
- *  Published Date: 2018.03.14
+ *  Version: 0.2.0
+ *  Published Date: 2018.05.25
+ *  Update log: 新增获取公网IP数据.
  
  *
  ***********************************************************

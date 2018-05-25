@@ -11,8 +11,9 @@
  
  * ZYTool Framework.
  *  Releases.
- *  Version: 0.1.9
- *  Published Date: 2018.05.04
+ *  Version: 0.2.0
+ *  Published Date: 2018.05.25
+ *  Update log: 新增获取公网IP数据.
  
  *
  ***********************************************************
@@ -34,7 +35,6 @@
 /**
  * UUIDManager.
  *  设备的唯一标识(UUID/GUID).
- *  注意：UUID只在同一个AppleID账号下共享，如果切换账号则无法获取会重新生成.
  */
 #import "ZYUUIDManager.h"
 

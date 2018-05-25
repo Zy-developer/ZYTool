@@ -8,13 +8,22 @@
 
 #import <Foundation/Foundation.h>
 
-/** IP地址. */
+/** 设备IP地址. */
 @interface ZYDeviceIPAdresses : NSObject
 
 /**
- * 获取IP地址.
+ * 获取内网IP地址.
  *  @return IP地址
  */
-+ (NSString *)getIpAddresses;
++ (NSString *)getIntranetIPAddresses;
+
+/**
+ * 获取公网IP地址数据.
+ *  @return 公网IP数据
+ * 注: 由于用到HTTP请求，需要在Info.plist里面开启允许HTTP协议请求.
+ *      NSAppTransportSecurity  NSDictionary
+ *          NSAllowsArbitraryLoads Boolean  YES
+ */
++ (NSDictionary *)getPublicIPAddresses;
 
 @end

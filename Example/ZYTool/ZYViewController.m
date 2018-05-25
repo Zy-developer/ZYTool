@@ -63,8 +63,11 @@
 
 #pragma mark - Device
 - (void)testDeviceTool {
-    NSString *IPAddresses = [ZYDeviceIPAdresses getIpAddresses];
-    NSLog(@"IPAddresses: %@", IPAddresses);
+    NSString *intranetIPAddresses = [ZYDeviceIPAdresses getIntranetIPAddresses];
+    NSLog(@"intranetIPAddresses: %@", intranetIPAddresses);
+    
+    NSDictionary *publicIPAddresses = [ZYDeviceIPAdresses getPublicIPAddresses];
+    NSLog(@"publicIPAddresses: %@", publicIPAddresses);
     
     [ZYUUIDManager saveUUID:@"170525testUUID"];
     NSString *uuid = [ZYUUIDManager getUUID];
