@@ -89,9 +89,9 @@
 + (NSInteger)integerForKey:(NSString *)key;
 
 /**
- * 删除.
+ * 删除已保存的值.
  *  @param key 要删除的Key
  */
-+ (void)removeObjectForKey:(NSString *)key;
++ (void)removeValueForKey:(NSString *)key;
 
 @end
