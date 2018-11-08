@@ -11,9 +11,9 @@
  
  * ZYTool Framework.
  *  Releases.
- *  Version: 0.2.1
- *  Published Date: 2018.07.27
- *  Update log: 修复BUG.
+ *  Version: 0.2.2
+ *  Published Date: 2018.11.08
+ *  Update log: 优化UUID唯一性.
  
  *
  ***********************************************************
