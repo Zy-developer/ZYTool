@@ -6,7 +6,8 @@
 //
 //  UserDefaults
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreGraphics/CGBase.h>
 
 /** 本地数据存储. */
 @interface UserDefaultsTool : NSObject

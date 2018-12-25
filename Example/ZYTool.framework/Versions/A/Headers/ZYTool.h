@@ -13,7 +13,7 @@
  *  Releases.
  *  Version: 0.2.3
  *  Published Date: 2018.12.25
- *  Update log: 优化UserDefaultsTool.
+ *  Update log: 优化UserDefaultsTool的默认值.
  
  *
  ***********************************************************
