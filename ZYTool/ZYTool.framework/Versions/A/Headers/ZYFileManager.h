@@ -80,7 +80,7 @@
 /**
  * 获取文件大小.
  *  @param path 文件路径
- *  @return 文件大小
+ *  @return 文件大小(MB)
  */
 + (float)sizeWithFilePath:(NSString *)path;
 /**
