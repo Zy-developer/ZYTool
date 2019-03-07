@@ -19,12 +19,11 @@
 
 /**
  * 获取公网IP地址数据.
- *  @param completedBlock 完成回调(外部需要自己判断ipInfo == nil).
- *  @return 公网IP数据.
+ *  @param completedBlock 完成回调.
  * 注: 由于用到HTTP请求，需要在Info.plist里面开启允许HTTP协议请求.
  *      NSAppTransportSecurity  NSDictionary
  *          NSAllowsArbitraryLoads Boolean  YES
  */
-+ (void)getPublicIPAddresses:(void(^)(NSDictionary *ipInfo))completedBlock;
++ (void)getPublicIPInfoData:(void(^)(NSDictionary *ipInfo))completedBlock;
 
 @end

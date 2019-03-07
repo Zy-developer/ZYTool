@@ -11,10 +11,10 @@
  
  * ZYTool Framework.
  *  Releases.
- *  Version: 0.2.4
- *  Published Date: 2019.03.06
+ *  Version: 0.2.5
+ *  Published Date: 2019.03.07
  *  Update log:
- *   1. 修复获取公网IP因为网络请求原因导致的主线程卡死.
+ *   1. 优化公网IP获取成功率.
  
  *
  ***********************************************************
