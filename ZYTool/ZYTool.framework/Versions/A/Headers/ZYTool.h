@@ -11,10 +11,11 @@
  
  * ZYTool Framework.
  *  Releases.
- *  Version: 0.2.5
+ *  Version: 0.2.6
  *  Published Date: 2019.03.07
  *  Update log:
  *   1. 优化提升公网IP获取成功率.
+ *   2. 优化BUG.
  
  *
  ***********************************************************
